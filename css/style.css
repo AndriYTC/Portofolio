@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth
+}
+
+@media (max-width: 768px) {
+    .home
+    .jumbo p{
+        font-size: 100%;
+    }
+
+    .skil .jumbo p{
+        font-size: 90%;
+    }
+}    
+@media (max-width: 450px) {
+    .home,.about
+    .jumbo p{
+        font-size: 90%;
+        
+    }
+
+    .skil .jumbo p{
+        font-size: 90%;
+    }
+}        
